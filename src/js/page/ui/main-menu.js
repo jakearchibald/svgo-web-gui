@@ -63,7 +63,7 @@ class MainMenu extends (require('events').EventEmitter) {
   }
 
   _onTextInputChange(event) {
-    var val = this._pasteInput.value.trim();
+    var val = this._pasteInput.value.trim().replace(/\0$/, "");
 
     if (val.indexOf('</svg>') != -1) {
       this._pasteInput.value = '';
