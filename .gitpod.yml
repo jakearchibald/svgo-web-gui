@@ -1,0 +1,10 @@
+
+tasks:
+  - command: gp await-port 8080 && sleep 2 && gp preview $(gp url 8080)
+  - init: yarn install
+    command: yarn serve
+ports:
+  - port: 8080
+    onOpen: ignore
+  - port: 3000
+    onOpen: ignore

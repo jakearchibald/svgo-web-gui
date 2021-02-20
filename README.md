@@ -20,6 +20,16 @@ Run dev server:
 npm run serve
 ```
 
+# Online one-click setup
+
+You can use Gitpod (a free online VS Code-like IDE) for contributing. With a single click, it'll launch a workspace and automatically:
+
+- clone the svgomg repo.
+- install the dependencies.
+- run `yarn serve`.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jakearchibald/svgomg)
+
 Or, run without the offline capabilities:
 
 ```sh
